@@ -1,0 +1,32 @@
+{
+    "ctrl":{
+        "gain":[0.5,0.5],
+        "timer":false
+    },
+
+    "hand":[{
+        "sbsThreshL":65,
+        "sbsThreshH":255,
+        "sbsGause":5
+    },{
+        "sbsThreshL":65,
+        "sbsThreshH":255,
+        "sbsGause":5
+    }],
+
+    "lc":[{
+        "Uthresh":20,
+        "Dthresh":8,
+        "ydis":30,
+        "yth":110
+    },{
+        "Uthresh":20,
+        "Dthresh":8
+    }],
+    
+    "depth":{
+    	"thresh":0.2,
+    	"l":24,
+    	"h":32
+    }
+}
